@@ -11708,8 +11708,10 @@ h1 {
   
   display:inline-block;
   margin-top: 0;
+  position: relative;
 
 }
+
 
 #container figcaption {
   position: absolute;
@@ -11721,12 +11723,14 @@ h1 {
   
   
 }
-#container:hover figcaption {
+#container:hover figcaption  {
   color: #f273f0;
   transition: 2s;
   margin-left: 50%;
-
+ 
 }
+
+
 #container2:hover figcaption {
   color: #f273f0;
   transition: 2s;
@@ -11735,7 +11739,7 @@ h1 {
 }
 
 #container2 figcaption {
-  position: absolute;
+    position: absolute;
   top: 1400px;
   left: 300px;
   font-size: 60px;
