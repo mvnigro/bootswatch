@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virginia Nigro</title>
+    <link rel="stylesheet" href="sketchy/bootstrap.css">
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Virgínia Nigro</label><img class="coracao" src="assets/img/coracao.png"/>
+                <ul>
+                <li ><a class="active" href="#container">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#after_submit">Contato</a></li>
+            </ul>
+    </header>
+
+                <div class="container"></div>
+                    <figure id="container">
+                        <div class="sentimentos"><img src="assets/img/background.png"></div>
+                        <figcaption><i class="fa-solid fa-heart"></i>  Sentimentos...  <i class="fa-solid fa-heart"></i><figcaption>
+                    </figure>
+   
+    </div>
+    </div>
+
+                <div class="container"></div>
+                    <figure id="container2">
+                        <div class="sentimentos"><img src="assets/img/fragmentos.jpeg"></div>
+                        <figcaption><i class="fa-solid fa-heart"></i>  "Fragmentos"  <i class="fa-solid fa-heart"></i></i><figcaption>
+                    </figure>
+                </div>
+    </div>
+                <div class="container">
+                    <div class="about" id="about">
+                        <br/><br/><br/>
+                        <h1>About me</h1>
+                        <p>As obras falam da vulnerabilidade de se entregar ao amor. De abrir portas internas e profundas, mostrando as lacunas e as diferenças visíveis e invisíveis ao olho nu. Uma imersão de auto conhecimento no vácuo de um intimo da incessante busca do desejo da alma. Do amor gentil, envolvendo cada célula do corpo. Cada pincelada é um sabor da liberdade.</p>
+                        <img class="fotoquadros" src="assets/img/fotocomquadros.jpeg">
+                    </div>
+                </div>
+
+            
+
+                <div class="container">
+                    <div class="conteudo" id="galeria">
+                                    <br/><br/><br/>
+                                    <h1>Galeria</h1>
+                                    <p>"Fragmentos de Amor em forma de cores"</p><br/>
+                                    <p>Espalhe Amor.</p>
+                                </div>
+                                
+                    <!-- Full-width images with number text -->
+                    <div class="slideshow">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="assets/img/quadro6.jpeg" style="width:100%">
+                        </div>
+            
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="assets/img/quadro1.jpeg" style="width:100%">
+                        </div>
+            
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="assets/img/quadro2.jpeg" style="width:100%">
+                        </div>
+            
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="assets/img/quadro3.jpeg" style="width:100%">
+                        </div>
+            
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="assets/img/quadro4.jpeg" style="width:100%">
+                        </div>
+            
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="assets/img/quadro5.jpeg" style="width:100%">
+                        </div>
+            
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                        <!-- Image text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+            
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                            <div class="column">
+                            <img class="demo cursor" src="assets/img/quadro6.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                            </div>
+                            <div class="column"> 
+                            <img class="demo cursor" src="assets/img/quadro1.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="assets/img/quadro2.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="assets/img/quadro3.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="assets/img/quadro4.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                            </div> 
+                            <div class="column">
+                            <img class="demo cursor" src="assets/img/quadro5.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        
+                        <div id="after_submit">
+                            <h1>Contato</h1>
+                        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                          <div class="row">
+                            <label class="required" for="name">Your name:</label><br />
+                            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                            <span id="name_validation" class="error_message"></span>
+                          </div>
+                          <div class="row">
+                            <label class="required" for="email">Your email:</label><br />
+                            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                            <span id="email_validation" class="error_message"></span>
+                          </div>
+                          <div class="row">
+                            <label class="required" for="message">Your message:</label><br />
+                            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                            <span id="message_validation" class="error_message"></span>
+                          </div></form><br/>
+                          <input id="submit_button" type="submit" value="Send email" />
+                          <br/><br/><br/>
+
+                        </form>
+                              
+                              
+                              
+                        </div>
+                    </div>
+            
+</div>
+<footer>
+    <div class="container">
+        <div class="row2">
+           
+            <!-- Footer Social Icons-->
+            <div class="footer">
+                <h4 class="text-uppercase mb-4">Medias Sociais</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/viander.br/" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.comercialelmar.com.br" target="_blank"><i class="fa-brands fa-safari"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/elmardistribuidora" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/comercialelmar/" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+            </div>
+                        
+                </p>
+            </div>
+        </div>
+</footer>
+    
+</body>
+</html>
